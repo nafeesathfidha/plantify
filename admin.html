@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Plantify</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Plantify Logo" class="logo">
+      <h2>Admin Panel</h2>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#plants">Manage Plants</a></li>
+        <li><a href="#pots">Manage Pots</a></li>
+        <li><a href="#accessories">Manage Accessories</a></li>
+        <li><a href="#orders">View Orders</a></li>
+        <li><a href="#users">Manage Users</a></li>
+        <li><a href="index.html">Back to Website</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+    <header class="top-bar">
+      <h1>Welcome, Admin</h1>
+      <button id="logout-btn">Logout</button>
+    </header>
+
+    <!-- Manage Plants Section -->
+    <section id="plants" class="dashboard-section">
+      <h2>Manage Plants</h2>
+      <form id="add-plant-form">
+        <input type="text" id="plant-name" placeholder="Plant Name" required>
+        <input type="number" id="plant-price" placeholder="Price" required>
+        <input type="file" id="plant-image" accept="image/*" required>
+        <button type="submit">Add New Plant</button>
+      </form>
+      <table id="plants-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
