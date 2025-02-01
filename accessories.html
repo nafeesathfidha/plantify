@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Accessories - Plantify</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <img src="logo.jpeg" alt="Plantify Logo" class="logo">
+        <h1>Plantify</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="plants.html">Plants</a></li>
+          <li><a href="pots.html">Pots</a></li>
+          <li><a href="accessories.html">Accessories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Enhance Your Plant Care</h2>
+      <p>Discover our wide range of plant accessories to keep your plants thriving.</p>
+    </div>
+  </section>
+
+  <!-- Accessories Section -->
+  <section class="shop">
+    <div class="container">
+      <h2>Plant Accessories</h2>
+      <div class="plant-grid">
+        <!-- Accessory Item 1 -->
+        <div class="plant-item">
+          <img src="images/acsr1.jpg" alt="Plant Hanger">
+          <h3>Plant Hanger</h3>
+          <p>A stylish way to hang your plants and save space.</p>
+          <p class="price">$15.00</p>
+          <button onclick="addToCart('Plant Hanger')">Buy Now</button>
+        </div>
+
+        <!-- Accessory Item 2 -->
+        <div class="plant-item">
+            <img src="images/acsr2.jpg" alt="Plant Hanger">
+          <h3>Plant Holder</h3>
+          <p>Perfect for displaying small plants on your desk or shelf.</p>
+          <p class="price">$12.00</p>
+          <button onclick="addToCart('Plant Holder')">Buy Now</button>
+        </div>
+
+        <!-- Accessory Item 3 -->
+        <div class="plant-item">
+          <img src="images/acsr3.jpg" alt="Plant Hanger">
+          <h3>Cutting Tools</h3>
+          <p>Precision tools for pruning and maintaining your plants.</p>
+          <p class="price">$20.00</p>
+          <button onclick="addToCart('Cutting Tools')">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Plantify. All rights reserved.</p>
+      <p>Contact us: info@plantify.com</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Add to Cart Functionality -->
+  <script>
+    function addToCart(productName) {
+      alert(`${productName} has been added to your cart!`);
+      // You can replace this with actual cart functionality later
+    }
+  </script>
+</body>
+</html>

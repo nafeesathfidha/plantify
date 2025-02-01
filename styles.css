@@ -385,3 +385,9 @@ table td button:hover {
   .product-card button:hover {
     background-color: #218838;
   }
+
+  .product-card .full-w-h {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 !important;
+  }
