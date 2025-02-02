@@ -59,6 +59,7 @@ For Software:
 # Screenshots (Add at least 3)
 ![Capture](https://github.com/user-attachments/assets/b66564af-1b9d-4c78-bad8-d6ed8c7b088b)
 ![Capture-2](https://github.com/user-attachments/assets/6c5884d7-b067-4fb3-b0fb-317ee9ac4d86)
+![Capture5](https://github.com/user-attachments/assets/b2687483-3105-4182-bebc-d3624ac661fc)
 
 
 ### Project Demo
